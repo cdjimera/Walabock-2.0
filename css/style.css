@@ -1,0 +1,33 @@
+.formAtCenter
+{
+    position: relative;
+    display : block;
+    margin : auto;
+    width : 40%;
+}
+
+.formAtCenter h3
+{
+    text-align: center;
+}
+
+.formAtCenter input[type="text"],
+.formAtCenter input[ type="password"],
+.formAtCenter input[type="email"],
+.formAtCenter input[type="tel"],
+.formAtCenter textarea,
+.formAtCenter select
+{
+    margin: auto;
+    width : 100%;
+}
+
+.formAtCenter input[type="radio"]
+{
+    margin-left: 20px;
+}
+
+.formConnect label
+{
+    width: 100px;
+}
